@@ -45,7 +45,44 @@ export enum Keys {
     W,
     X,
     Y,
-    Z
+    Z,
+    D1,
+    D2,
+    D3,
+    D4,
+    D5,
+    D6,
+    D7,
+    D8,
+    D9,
+    D0,
+    Minus,
+    Equal,
+    BracketLeft,
+    BracketRight,
+    Backslash,
+    Slash,
+    Comma,
+    Period,
+    Semicolon,
+    Quote,
+    Backquote,
+    Numpad0,
+    Numpad1,
+    Numpad2,
+    Numpad3,
+    Numpad4,
+    Numpad5,
+    Numpad6,
+    Numpad7,
+    Numpad8,
+    Numpad9,
+    NumpadDivide,
+    NumpadMultiply,
+    NumpadSubtract,
+    NumpadAdd,
+    NumpadEnter,
+    NumpadDecimal,
 }
 
 class KeyboardState {
@@ -141,6 +178,46 @@ export class Keyboard {
         this._states.push(new KeyboardState('KeyX', Keys.X));
         this._states.push(new KeyboardState('KeyY', Keys.Y));
         this._states.push(new KeyboardState('KeyZ', Keys.Z));
+        
+        this._states.push(new KeyboardState('Digit0', Keys.D0));
+        this._states.push(new KeyboardState('Digit1', Keys.D1));
+        this._states.push(new KeyboardState('Digit2', Keys.D2));
+        this._states.push(new KeyboardState('Digit3', Keys.D3));
+        this._states.push(new KeyboardState('Digit4', Keys.D4));
+        this._states.push(new KeyboardState('Digit5', Keys.D5));
+        this._states.push(new KeyboardState('Digit6', Keys.D6));
+        this._states.push(new KeyboardState('Digit7', Keys.D7));
+        this._states.push(new KeyboardState('Digit8', Keys.D8));
+        this._states.push(new KeyboardState('Digit9', Keys.D9));
+        
+        this._states.push(new KeyboardState('Minus', Keys.Minus));
+        this._states.push(new KeyboardState('Equal', Keys.Equal));
+        this._states.push(new KeyboardState('BracketLeft', Keys.BracketLeft));
+        this._states.push(new KeyboardState('BracketRight', Keys.BracketRight));
+        this._states.push(new KeyboardState('Backslash', Keys.Backslash));
+        this._states.push(new KeyboardState('Slash', Keys.Slash));
+        this._states.push(new KeyboardState('Period', Keys.Period));
+        this._states.push(new KeyboardState('Comma', Keys.Comma));
+        this._states.push(new KeyboardState('Semicolon', Keys.Semicolon));
+        this._states.push(new KeyboardState('Backquote', Keys.Backquote));
+        this._states.push(new KeyboardState('Quote', Keys.Quote));
+        
+        this._states.push(new KeyboardState('Numpad0', Keys.Numpad0));
+        this._states.push(new KeyboardState('Numpad1', Keys.Numpad1));
+        this._states.push(new KeyboardState('Numpad2', Keys.Numpad2));
+        this._states.push(new KeyboardState('Numpad3', Keys.Numpad3));
+        this._states.push(new KeyboardState('Numpad4', Keys.Numpad4));
+        this._states.push(new KeyboardState('Numpad5', Keys.Numpad5));
+        this._states.push(new KeyboardState('Numpad6', Keys.Numpad6));
+        this._states.push(new KeyboardState('Numpad7', Keys.Numpad7));
+        this._states.push(new KeyboardState('Numpad8', Keys.Numpad8));
+        this._states.push(new KeyboardState('Numpad9', Keys.Numpad9));
+        this._states.push(new KeyboardState('NumpadDivide', Keys.NumpadDivide));
+        this._states.push(new KeyboardState('NumpadMultiply', Keys.NumpadMultiply));
+        this._states.push(new KeyboardState('NumpadSubtract', Keys.NumpadSubtract));
+        this._states.push(new KeyboardState('NumpadAdd', Keys.NumpadAdd));
+        this._states.push(new KeyboardState('NumpadEnter', Keys.NumpadEnter));
+        this._states.push(new KeyboardState('NumpadDecimal', Keys.NumpadDecimal));
     }
 
     public static update() {
