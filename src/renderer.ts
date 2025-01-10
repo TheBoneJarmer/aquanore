@@ -13,6 +13,14 @@ export class Renderer {
     private static _shader: Shader | null = null;
     private static _shaderPolygon: Shader | null = null;
     private static _shaderFont: Shader | null = null;
+    
+    public static set shaderPolygon(value: Shader) {
+        this._shaderPolygon = value;
+    }
+    
+    public static set shaderFont(value: Shader) {
+        this._shaderFont = value;
+    }
 
     private constructor() {
     }

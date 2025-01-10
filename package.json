@@ -1,6 +1,6 @@
 {
   "name": "aquanore",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Aquanore is a light-weight 2D WebGL framework covering the utmost basics for a HTML5 game",
   "repository": {
     "type": "git",
